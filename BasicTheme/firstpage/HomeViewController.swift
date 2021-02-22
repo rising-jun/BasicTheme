@@ -6,12 +6,14 @@
 //
 
 import UIKit
+import ReactorKit
 
-class ViewController: UIViewController {
+class HomeViewController: UIPageViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
+        view.backgroundColor = .blue
     }
 
 
